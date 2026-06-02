@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.pitstop.runner.RunCucumberTest
+-------------------------------------------------------------------------------
+Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.551 s -- in com.pitstop.runner.RunCucumberTest

@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.pitstop.runner.RunCucumberTest" time="1.551" tests="19" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="24"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Admin\Downloads\pitstop-passport-bdd-v2\pitstop-v2\target\test-classes;C:\Users\Admin\Downloads\pitstop-passport-bdd-v2\pitstop-v2\target\classes;C:\Users\Admin\.m2\repository\io\cucumber\cucumber-java\7.14.0\cucumber-java-7.14.0.jar;C:\Users\Admin\.m2\repository\io\cucumber\cucumber-core\7.14.0\cucumber-core-7.14.0.jar;C:\Users\Admin\.m2\repository\io\cucumber\cucumber-gherkin\7.14.0\cucumber-gherkin-7.14.0.jar;C:\Users\Admin\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.14.0\cucumber-gherkin-messages-7.14.0.jar;C:\Users\Admin\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\Admin\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\Admin\.m2\repository\io\cucumber\tag-expressions\5.0.6\tag-expressions-5.0.6.jar;C:\Users\Admin\.m2\repository\io\cucumber\cucumber-expressions\16.1.2\cucumber-expressions-16.1.2.jar;C:\Users\Admin\.m2\repository\io\cucumber\datatable\7.14.0\datatable-7.14.0.jar;C:\Users\Admin\.m2\repository\io\cucumber\cucumber-plugin\7.14.0\cucumber-plugin-7.14.0.jar;C:\Users\Admin\.m2\repository\io\cucumber\docstring\7.14.0\docstring-7.14.0.jar;C:\Users\Admin\.m2\repository\io\cucumber\html-formatter\20.4.0\html-formatter-20.4.0.jar;C:\Users\Admin\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\Admin\.m2\repository\io\cucumber\ci-environment\9.2.0\ci-environment-9.2.0.jar;C:\Users\Admin\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Admin\.m2\repository\io\cucumber\cucumber-junit-platform-engine\7.14.0\cucumber-junit-platform-engine-7.14.0.jar;C:\Users\Admin\.m2\repository\org\junit\platform\junit-platform-engine\1.10.0\junit-platform-engine-1.10.0.jar;C:\Users\Admin\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.0\junit-jupiter-api-5.10.0.jar;C:\Users\Admin\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\Admin\.m2\repository\org\junit\platform\junit-platform-commons\1.10.0\junit-platform-commons-1.10.0.jar;C:\Users\Admin\.m2\repository\org\junit\platform\junit-platform-suite\1.10.0\junit-platform-suite-1.10.0.jar;C:\Users\Admin\.m2\repository\org\junit\platform\junit-platform-suite-api\1.10.0\junit-platform-suite-api-1.10.0.jar;C:\Users\Admin\.m2\repository\org\junit\platform\junit-platform-suite-engine\1.10.0\junit-platform-suite-engine-1.10.0.jar;C:\Users\Admin\.m2\repository\org\junit\platform\junit-platform-suite-commons\1.10.0\junit-platform-suite-commons-1.10.0.jar;C:\Users\Admin\.m2\repository\org\junit\platform\junit-platform-launcher\1.10.0\junit-platform-launcher-1.10.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Sofia"/>
+    <property name="user.country.format" value="BG"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="24"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-24\bin"/>
+    <property name="sun.java.command" value="C:\Users\Admin\AppData\Local\Temp\surefire2112898462876284508\surefirebooter-20260602095107852_3.jar C:\Users\Admin\AppData\Local\Temp\surefire2112898462876284508 2026-06-02T09-51-07_644-jvmRun1 surefire-20260602095107852_1tmp surefire_0-20260602095107852_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Admin\Downloads\pitstop-passport-bdd-v2\pitstop-v2\target\test-classes;C:\Users\Admin\Downloads\pitstop-passport-bdd-v2\pitstop-v2\target\classes;C:\Users\Admin\.m2\repository\io\cucumber\cucumber-java\7.14.0\cucumber-java-7.14.0.jar;C:\Users\Admin\.m2\repository\io\cucumber\cucumber-core\7.14.0\cucumber-core-7.14.0.jar;C:\Users\Admin\.m2\repository\io\cucumber\cucumber-gherkin\7.14.0\cucumber-gherkin-7.14.0.jar;C:\Users\Admin\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.14.0\cucumber-gherkin-messages-7.14.0.jar;C:\Users\Admin\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\Admin\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\Admin\.m2\repository\io\cucumber\tag-expressions\5.0.6\tag-expressions-5.0.6.jar;C:\Users\Admin\.m2\repository\io\cucumber\cucumber-expressions\16.1.2\cucumber-expressions-16.1.2.jar;C:\Users\Admin\.m2\repository\io\cucumber\datatable\7.14.0\datatable-7.14.0.jar;C:\Users\Admin\.m2\repository\io\cucumber\cucumber-plugin\7.14.0\cucumber-plugin-7.14.0.jar;C:\Users\Admin\.m2\repository\io\cucumber\docstring\7.14.0\docstring-7.14.0.jar;C:\Users\Admin\.m2\repository\io\cucumber\html-formatter\20.4.0\html-formatter-20.4.0.jar;C:\Users\Admin\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\Admin\.m2\repository\io\cucumber\ci-environment\9.2.0\ci-environment-9.2.0.jar;C:\Users\Admin\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Admin\.m2\repository\io\cucumber\cucumber-junit-platform-engine\7.14.0\cucumber-junit-platform-engine-7.14.0.jar;C:\Users\Admin\.m2\repository\org\junit\platform\junit-platform-engine\1.10.0\junit-platform-engine-1.10.0.jar;C:\Users\Admin\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.0\junit-jupiter-api-5.10.0.jar;C:\Users\Admin\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\Admin\.m2\repository\org\junit\platform\junit-platform-commons\1.10.0\junit-platform-commons-1.10.0.jar;C:\Users\Admin\.m2\repository\org\junit\platform\junit-platform-suite\1.10.0\junit-platform-suite-1.10.0.jar;C:\Users\Admin\.m2\repository\org\junit\platform\junit-platform-suite-api\1.10.0\junit-platform-suite-api-1.10.0.jar;C:\Users\Admin\.m2\repository\org\junit\platform\junit-platform-suite-engine\1.10.0\junit-platform-suite-engine-1.10.0.jar;C:\Users\Admin\.m2\repository\org\junit\platform\junit-platform-suite-commons\1.10.0\junit-platform-suite-commons-1.10.0.jar;C:\Users\Admin\.m2\repository\org\junit\platform\junit-platform-launcher\1.10.0\junit-platform-launcher-1.10.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Admin"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-03-18"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-24"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Admin\Downloads\pitstop-passport-bdd-v2\pitstop-v2"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Admin\AppData\Local\Temp\surefire2112898462876284508\surefirebooter-20260602095107852_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="24+36-3646"/>
+    <property name="user.name" value="Admin"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Admin\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Admin\AppData\Local\Temp\"/>
+    <property name="java.version" value="24"/>
+    <property name="user.dir" value="C:\Users\Admin\Downloads\pitstop-passport-bdd-v2\pitstop-v2"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.language.format" value="bg"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-24\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Azure Data Studio\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\Git\cmd;C:\Program Files\apache-maven-3.9.16-bin\apache-maven-3.9.16\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Admin\AppData\Local\Microsoft\WindowsApps;C:\Users\Admin\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Admin\.dotnet\tools;C:\Users\Admin\AppData\Local\GitHubDesktop\bin;C:\ProgramData\Admin\GitHubDesktop\bin;c:\src\flutter\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2026.1.2\bin;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="24+36-3646"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="68.0"/>
+  </properties>
+  <testcase name="Successful registration with valid data" classname="User Registration and Login" time="0.172">
+    <system-out><![CDATA[
+Scenario: Successful registration with valid data                                                     &amp#27;[90m# features/01_user_registration_login.feature:8&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe system does not contain a user with email &amp#27;[0m&amp#27;[32m&amp#27;[1m"traveler@pitstop.bg"&amp#27;[0m                           &amp#27;[90m# com.pitstop.stepdefs.UserStepDefs.system_no_user(java.lang.String)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe user registers with username &amp#27;[0m&amp#27;[32m&amp#27;[1m"racer99"&amp#27;[0m&amp#27;[32m, email &amp#27;[0m&amp#27;[32m&amp#27;[1m"traveler@pitstop.bg"&amp#27;[0m&amp#27;[32m and password &amp#27;[0m&amp#27;[32m&amp#27;[1m"Test123"&amp#27;[0m &amp#27;[90m# com.pitstop.stepdefs.UserStepDefs.user_registers(java.lang.String,java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe registration is successful&amp#27;[0m                                                                 &amp#27;[90m# com.pitstop.stepdefs.UserStepDefs.registration_successful()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe system contains a user with email &amp#27;[0m&amp#27;[32m&amp#27;[1m"traveler@pitstop.bg"&amp#27;[0m                                     &amp#27;[90m# com.pitstop.stepdefs.UserStepDefs.system_contains_user(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe user has an empty digital passport created&amp#27;[0m                                                  &amp#27;[90m# com.pitstop.stepdefs.UserStepDefs.user_has_empty_passport()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Registration with an already existing email" classname="User Registration and Login" time="0.032">
+    <system-out><![CDATA[
+Scenario: Registration with an already existing email                                    &amp#27;[90m# features/01_user_registration_login.feature:15&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser &amp#27;[0m&amp#27;[32m&amp#27;[1m"existingUser"&amp#27;[0m&amp#27;[32m is already registered with email &amp#27;[0m&amp#27;[32m&amp#27;[1m"taken@pitstop.bg"&amp#27;[0m          &amp#27;[90m# com.pitstop.stepdefs.UserStepDefs.user_registered_no_pass(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32ma new user tries to register with email &amp#27;[0m&amp#27;[32m&amp#27;[1m"taken@pitstop.bg"&amp#27;[0m&amp#27;[32m and password &amp#27;[0m&amp#27;[32m&amp#27;[1m"Pass123"&amp#27;[0m &amp#27;[90m# com.pitstop.stepdefs.UserStepDefs.new_user_tries_register(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe registration fails&amp#27;[0m                                                            &amp#27;[90m# com.pitstop.stepdefs.UserStepDefs.registration_fails()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe error message is &amp#27;[0m&amp#27;[32m&amp#27;[1m"Email adresat veche e registriran."&amp#27;[0m                          &amp#27;[90m# com.pitstop.stepdefs.UserStepDefs.error_message_is(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Registration with a too short password" classname="User Registration and Login" time="0.072">
+    <system-out><![CDATA[
+Scenario: Registration with a too short password                                               &amp#27;[90m# features/01_user_registration_login.feature:21&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe system does not contain a user with email &amp#27;[0m&amp#27;[32m&amp#27;[1m"short@pitstop.bg"&amp#27;[0m                       &amp#27;[90m# com.pitstop.stepdefs.UserStepDefs.system_no_user(java.lang.String)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe user registers with username &amp#27;[0m&amp#27;[32m&amp#27;[1m"newUser"&amp#27;[0m&amp#27;[32m, email &amp#27;[0m&amp#27;[32m&amp#27;[1m"short@pitstop.bg"&amp#27;[0m&amp#27;[32m and password &amp#27;[0m&amp#27;[32m&amp#27;[1m"abc"&amp#27;[0m &amp#27;[90m# com.pitstop.stepdefs.UserStepDefs.user_registers(java.lang.String,java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe registration fails&amp#27;[0m                                                                  &amp#27;[90m# com.pitstop.stepdefs.UserStepDefs.registration_fails()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe error message is &amp#27;[0m&amp#27;[32m&amp#27;[1m"Parolata tryabva da e pone 6 simvola."&amp#27;[0m                             &amp#27;[90m# com.pitstop.stepdefs.UserStepDefs.error_message_is(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Registration with invalid email format" classname="User Registration and Login" time="0.052">
+    <system-out><![CDATA[
+Scenario: Registration with invalid email format                                                &amp#27;[90m# features/01_user_registration_login.feature:27&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe system does not contain a user with email &amp#27;[0m&amp#27;[32m&amp#27;[1m"invalidemail"&amp#27;[0m                            &amp#27;[90m# com.pitstop.stepdefs.UserStepDefs.system_no_user(java.lang.String)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe user registers with username &amp#27;[0m&amp#27;[32m&amp#27;[1m"badEmail"&amp#27;[0m&amp#27;[32m, email &amp#27;[0m&amp#27;[32m&amp#27;[1m"invalidemail"&amp#27;[0m&amp#27;[32m and password &amp#27;[0m&amp#27;[32m&amp#27;[1m"Test123"&amp#27;[0m &amp#27;[90m# com.pitstop.stepdefs.UserStepDefs.user_registers(java.lang.String,java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe registration fails&amp#27;[0m                                                                   &amp#27;[90m# com.pitstop.stepdefs.UserStepDefs.registration_fails()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe error message is &amp#27;[0m&amp#27;[32m&amp#27;[1m"Nevaliden email adres."&amp#27;[0m                                             &amp#27;[90m# com.pitstop.stepdefs.UserStepDefs.error_message_is(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Successful login with valid credentials" classname="User Registration and Login" time="0.035">
+    <system-out><![CDATA[
+Scenario: Successful login with valid credentials                                                 &amp#27;[90m# features/01_user_registration_login.feature:35&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser &amp#27;[0m&amp#27;[32m&amp#27;[1m"racer99"&amp#27;[0m&amp#27;[32m is already registered with email &amp#27;[0m&amp#27;[32m&amp#27;[1m"racer@pitstop.bg"&amp#27;[0m&amp#27;[32m and password &amp#27;[0m&amp#27;[32m&amp#27;[1m"Test123"&amp#27;[0m &amp#27;[90m# com.pitstop.stepdefs.UserStepDefs.user_registered(java.lang.String,java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe user logs in with email &amp#27;[0m&amp#27;[32m&amp#27;[1m"racer@pitstop.bg"&amp#27;[0m&amp#27;[32m and password &amp#27;[0m&amp#27;[32m&amp#27;[1m"Test123"&amp#27;[0m                      &amp#27;[90m# com.pitstop.stepdefs.UserStepDefs.user_logs_in(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe login is successful&amp#27;[0m                                                                    &amp#27;[90m# com.pitstop.stepdefs.UserStepDefs.login_successful()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe system returns a valid session token&amp#27;[0m                                                    &amp#27;[90m# com.pitstop.stepdefs.UserStepDefs.system_returns_token()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Login with wrong password" classname="User Registration and Login" time="0.023">
+    <system-out><![CDATA[
+Scenario: Login with wrong password                                                                &amp#27;[90m# features/01_user_registration_login.feature:41&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser &amp#27;[0m&amp#27;[32m&amp#27;[1m"racer99"&amp#27;[0m&amp#27;[32m is already registered with email &amp#27;[0m&amp#27;[32m&amp#27;[1m"racer2@pitstop.bg"&amp#27;[0m&amp#27;[32m and password &amp#27;[0m&amp#27;[32m&amp#27;[1m"Test123"&amp#27;[0m &amp#27;[90m# com.pitstop.stepdefs.UserStepDefs.user_registered(java.lang.String,java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe user logs in with email &amp#27;[0m&amp#27;[32m&amp#27;[1m"racer2@pitstop.bg"&amp#27;[0m&amp#27;[32m and password &amp#27;[0m&amp#27;[32m&amp#27;[1m"WrongPass"&amp#27;[0m                    &amp#27;[90m# com.pitstop.stepdefs.UserStepDefs.user_logs_in(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe login fails&amp#27;[0m                                                                             &amp#27;[90m# com.pitstop.stepdefs.UserStepDefs.login_fails()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe error message is &amp#27;[0m&amp#27;[32m&amp#27;[1m"Nevalidna parola."&amp#27;[0m                                                     &amp#27;[90m# com.pitstop.stepdefs.UserStepDefs.error_message_is(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Login with non-existing email" classname="User Registration and Login" time="0.056">
+    <system-out><![CDATA[
+Scenario: Login with non-existing email                                      &amp#27;[90m# features/01_user_registration_login.feature:47&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe system does not contain a user with email &amp#27;[0m&amp#27;[32m&amp#27;[1m"ghost@pitstop.bg"&amp#27;[0m     &amp#27;[90m# com.pitstop.stepdefs.UserStepDefs.system_no_user(java.lang.String)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe user logs in with email &amp#27;[0m&amp#27;[32m&amp#27;[1m"ghost@pitstop.bg"&amp#27;[0m&amp#27;[32m and password &amp#27;[0m&amp#27;[32m&amp#27;[1m"Test123"&amp#27;[0m &amp#27;[90m# com.pitstop.stepdefs.UserStepDefs.user_logs_in(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe login fails&amp#27;[0m                                                       &amp#27;[90m# com.pitstop.stepdefs.UserStepDefs.login_fails()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe error message is &amp#27;[0m&amp#27;[32m&amp#27;[1m"Potrebitelat ne e nameren."&amp#27;[0m                      &amp#27;[90m# com.pitstop.stepdefs.UserStepDefs.error_message_is(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Successful check-in within 50 metres" classname="GPS Location Check-in" time="0.217">
+    <system-out><![CDATA[
+Scenario: Successful check-in within 50 metres                                  &amp#27;[90m# features/02_gps_checkin.feature:13&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe user &amp#27;[0m&amp#27;[32m&amp#27;[1m"moto_fan"&amp#27;[0m&amp#27;[32m is registered and logged in&amp#27;[0m                         &amp#27;[90m# com.pitstop.stepdefs.CheckInStepDefs.user_registered_logged_in(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe system has a pitstop &amp#27;[0m&amp#27;[32m&amp#27;[1m"Kamanni Gabi"&amp#27;[0m&amp#27;[32m with coordinates &amp#27;[0m&amp#27;[32m&amp#27;[1m41.6233&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m25.3697&amp#27;[0m &amp#27;[90m# com.pitstop.stepdefs.CheckInStepDefs.system_has_pitstop(java.lang.String,double,double)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe user has no previous stamps&amp#27;[0m                                           &amp#27;[90m# com.pitstop.stepdefs.CheckInStepDefs.user_has_no_stamps()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe user is at coordinates &amp#27;[0m&amp#27;[32m&amp#27;[1m41.6233&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m25.3697&amp#27;[0m                             &amp#27;[90m# com.pitstop.stepdefs.CheckInStepDefs.user_at_coordinates(double,double)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe user attempts to check in at &amp#27;[0m&amp#27;[32m&amp#27;[1m"Kamanni Gabi"&amp#27;[0m                          &amp#27;[90m# com.pitstop.stepdefs.CheckInStepDefs.user_attempts_checkin(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe check-in is successful&amp#27;[0m                                               &amp#27;[90m# com.pitstop.stepdefs.CheckInStepDefs.checkin_successful()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32ma new stamp for &amp#27;[0m&amp#27;[32m&amp#27;[1m"Kamanni Gabi"&amp#27;[0m&amp#27;[32m is added to the passport&amp#27;[0m                   &amp#27;[90m# com.pitstop.stepdefs.CheckInStepDefs.new_stamp_added(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe stamp count in the passport is &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m                                      &amp#27;[90m# com.pitstop.stepdefs.CheckInStepDefs.stamp_count_is(int)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Successful check-in at exactly 50 metres" classname="GPS Location Check-in" time="0.023">
+    <system-out><![CDATA[
+Scenario: Successful check-in at exactly 50 metres                              &amp#27;[90m# features/02_gps_checkin.feature:20&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe user &amp#27;[0m&amp#27;[32m&amp#27;[1m"moto_fan"&amp#27;[0m&amp#27;[32m is registered and logged in&amp#27;[0m                         &amp#27;[90m# com.pitstop.stepdefs.CheckInStepDefs.user_registered_logged_in(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe system has a pitstop &amp#27;[0m&amp#27;[32m&amp#27;[1m"Kamanni Gabi"&amp#27;[0m&amp#27;[32m with coordinates &amp#27;[0m&amp#27;[32m&amp#27;[1m41.6233&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m25.3697&amp#27;[0m &amp#27;[90m# com.pitstop.stepdefs.CheckInStepDefs.system_has_pitstop(java.lang.String,double,double)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe user has no previous stamps&amp#27;[0m                                           &amp#27;[90m# com.pitstop.stepdefs.CheckInStepDefs.user_has_no_stamps()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe user is at coordinates &amp#27;[0m&amp#27;[32m&amp#27;[1m41.6237&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m25.3697&amp#27;[0m                             &amp#27;[90m# com.pitstop.stepdefs.CheckInStepDefs.user_at_coordinates(double,double)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe user attempts to check in at &amp#27;[0m&amp#27;[32m&amp#27;[1m"Kamanni Gabi"&amp#27;[0m                          &amp#27;[90m# com.pitstop.stepdefs.CheckInStepDefs.user_attempts_checkin(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe check-in is successful&amp#27;[0m                                               &amp#27;[90m# com.pitstop.stepdefs.CheckInStepDefs.checkin_successful()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe stamp count in the passport is &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m                                      &amp#27;[90m# com.pitstop.stepdefs.CheckInStepDefs.stamp_count_is(int)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Failed check-in - user is too far away" classname="GPS Location Check-in" time="0.046">
+    <system-out><![CDATA[
+Scenario: Failed check-in - user is too far away                                &amp#27;[90m# features/02_gps_checkin.feature:28&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe user &amp#27;[0m&amp#27;[32m&amp#27;[1m"moto_fan"&amp#27;[0m&amp#27;[32m is registered and logged in&amp#27;[0m                         &amp#27;[90m# com.pitstop.stepdefs.CheckInStepDefs.user_registered_logged_in(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe system has a pitstop &amp#27;[0m&amp#27;[32m&amp#27;[1m"Kamanni Gabi"&amp#27;[0m&amp#27;[32m with coordinates &amp#27;[0m&amp#27;[32m&amp#27;[1m41.6233&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m25.3697&amp#27;[0m &amp#27;[90m# com.pitstop.stepdefs.CheckInStepDefs.system_has_pitstop(java.lang.String,double,double)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe user has no previous stamps&amp#27;[0m                                           &amp#27;[90m# com.pitstop.stepdefs.CheckInStepDefs.user_has_no_stamps()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe user is at coordinates &amp#27;[0m&amp#27;[32m&amp#27;[1m42.6977&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m23.3219&amp#27;[0m                             &amp#27;[90m# com.pitstop.stepdefs.CheckInStepDefs.user_at_coordinates(double,double)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe user attempts to check in at &amp#27;[0m&amp#27;[32m&amp#27;[1m"Kamanni Gabi"&amp#27;[0m                          &amp#27;[90m# com.pitstop.stepdefs.CheckInStepDefs.user_attempts_checkin(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe check-in fails&amp#27;[0m                                                       &amp#27;[90m# com.pitstop.stepdefs.CheckInStepDefs.checkin_fails()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe error contains &amp#27;[0m&amp#27;[32m&amp#27;[1m"Too far from location"&amp#27;[0m                                &amp#27;[90m# com.pitstop.stepdefs.CommonStepDefs.error_contains(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe stamp count in the passport is &amp#27;[0m&amp#27;[32m&amp#27;[1m0&amp#27;[0m                                      &amp#27;[90m# com.pitstop.stepdefs.CheckInStepDefs.stamp_count_is(int)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Failed check-in - user is 100 metres away" classname="GPS Location Check-in" time="0.078">
+    <system-out><![CDATA[
+Scenario: Failed check-in - user is 100 metres away                             &amp#27;[90m# features/02_gps_checkin.feature:35&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe user &amp#27;[0m&amp#27;[32m&amp#27;[1m"moto_fan"&amp#27;[0m&amp#27;[32m is registered and logged in&amp#27;[0m                         &amp#27;[90m# com.pitstop.stepdefs.CheckInStepDefs.user_registered_logged_in(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe system has a pitstop &amp#27;[0m&amp#27;[32m&amp#27;[1m"Kamanni Gabi"&amp#27;[0m&amp#27;[32m with coordinates &amp#27;[0m&amp#27;[32m&amp#27;[1m41.6233&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m25.3697&amp#27;[0m &amp#27;[90m# com.pitstop.stepdefs.CheckInStepDefs.system_has_pitstop(java.lang.String,double,double)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe user has no previous stamps&amp#27;[0m                                           &amp#27;[90m# com.pitstop.stepdefs.CheckInStepDefs.user_has_no_stamps()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe user is at coordinates &amp#27;[0m&amp#27;[32m&amp#27;[1m41.6242&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m25.3697&amp#27;[0m                             &amp#27;[90m# com.pitstop.stepdefs.CheckInStepDefs.user_at_coordinates(double,double)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe user attempts to check in at &amp#27;[0m&amp#27;[32m&amp#27;[1m"Kamanni Gabi"&amp#27;[0m                          &amp#27;[90m# com.pitstop.stepdefs.CheckInStepDefs.user_attempts_checkin(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe check-in fails&amp#27;[0m                                                       &amp#27;[90m# com.pitstop.stepdefs.CheckInStepDefs.checkin_fails()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe error contains &amp#27;[0m&amp#27;[32m&amp#27;[1m"Too far from location"&amp#27;[0m                                &amp#27;[90m# com.pitstop.stepdefs.CommonStepDefs.error_contains(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Failed check-in - stamp already exists for this pitstop" classname="GPS Location Check-in" time="0.016">
+    <system-out><![CDATA[
+Scenario: Failed check-in - stamp already exists for this pitstop               &amp#27;[90m# features/02_gps_checkin.feature:41&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe user &amp#27;[0m&amp#27;[32m&amp#27;[1m"moto_fan"&amp#27;[0m&amp#27;[32m is registered and logged in&amp#27;[0m                         &amp#27;[90m# com.pitstop.stepdefs.CheckInStepDefs.user_registered_logged_in(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe system has a pitstop &amp#27;[0m&amp#27;[32m&amp#27;[1m"Kamanni Gabi"&amp#27;[0m&amp#27;[32m with coordinates &amp#27;[0m&amp#27;[32m&amp#27;[1m41.6233&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m25.3697&amp#27;[0m &amp#27;[90m# com.pitstop.stepdefs.CheckInStepDefs.system_has_pitstop(java.lang.String,double,double)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe user has no previous stamps&amp#27;[0m                                           &amp#27;[90m# com.pitstop.stepdefs.CheckInStepDefs.user_has_no_stamps()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe user is at coordinates &amp#27;[0m&amp#27;[32m&amp#27;[1m41.6233&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m25.3697&amp#27;[0m                             &amp#27;[90m# com.pitstop.stepdefs.CheckInStepDefs.user_at_coordinates(double,double)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe user has already checked in at &amp#27;[0m&amp#27;[32m&amp#27;[1m"Kamanni Gabi"&amp#27;[0m                         &amp#27;[90m# com.pitstop.stepdefs.CheckInStepDefs.user_already_checked_in(java.lang.String)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe user attempts to check in at &amp#27;[0m&amp#27;[32m&amp#27;[1m"Kamanni Gabi"&amp#27;[0m                          &amp#27;[90m# com.pitstop.stepdefs.CheckInStepDefs.user_attempts_checkin(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe check-in fails&amp#27;[0m                                                       &amp#27;[90m# com.pitstop.stepdefs.CheckInStepDefs.checkin_fails()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe error contains &amp#27;[0m&amp#27;[32m&amp#27;[1m"Veche imash pechat"&amp#27;[0m                                   &amp#27;[90m# com.pitstop.stepdefs.CommonStepDefs.error_contains(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Distance calculation between two far apart points" classname="GPS Location Check-in" time="0.017">
+    <system-out><![CDATA[
+Scenario: Distance calculation between two far apart points                              &amp#27;[90m# features/02_gps_checkin.feature:48&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe user &amp#27;[0m&amp#27;[32m&amp#27;[1m"moto_fan"&amp#27;[0m&amp#27;[32m is registered and logged in&amp#27;[0m                                  &amp#27;[90m# com.pitstop.stepdefs.CheckInStepDefs.user_registered_logged_in(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe system has a pitstop &amp#27;[0m&amp#27;[32m&amp#27;[1m"Kamanni Gabi"&amp#27;[0m&amp#27;[32m with coordinates &amp#27;[0m&amp#27;[32m&amp#27;[1m41.6233&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m25.3697&amp#27;[0m          &amp#27;[90m# com.pitstop.stepdefs.CheckInStepDefs.system_has_pitstop(java.lang.String,double,double)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe user has no previous stamps&amp#27;[0m                                                    &amp#27;[90m# com.pitstop.stepdefs.CheckInStepDefs.user_has_no_stamps()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe user is at coordinates &amp#27;[0m&amp#27;[32m&amp#27;[1m42.1433&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m24.7494&amp#27;[0m                                      &amp#27;[90m# com.pitstop.stepdefs.CheckInStepDefs.user_at_coordinates(double,double)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe system calculates the distance to the pitstop at coordinates &amp#27;[0m&amp#27;[32m&amp#27;[1m41.6233&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m25.3697&amp#27;[0m &amp#27;[90m# com.pitstop.stepdefs.CheckInStepDefs.system_calculates_distance(double,double)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe calculated distance is greater than &amp#27;[0m&amp#27;[32m&amp#27;[1m50&amp#27;[0m&amp#27;[32m metres&amp#27;[0m                                 &amp#27;[90m# com.pitstop.stepdefs.CheckInStepDefs.distance_greater_than(int)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Successfully unlock a recipe with exactly enough stamps" classname="Unlock Regional Recipes" time="0.041">
+    <system-out><![CDATA[
+Scenario: Successfully unlock a recipe with exactly enough stamps                             &amp#27;[90m# features/03_unlock_recipes.feature:12&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe user &amp#27;[0m&amp#27;[32m&amp#27;[1m"chef_traveler"&amp#27;[0m&amp#27;[32m is registered and logged in for recipes&amp#27;[0m                      &amp#27;[90m# com.pitstop.stepdefs.RecipeStepDefs.user_registered_for_recipes(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe system has a recipe &amp#27;[0m&amp#27;[32m&amp#27;[1m"Dobrudjanski Hlyab"&amp#27;[0m&amp#27;[32m from region &amp#27;[0m&amp#27;[32m&amp#27;[1m"Dobrudzha"&amp#27;[0m&amp#27;[32m requiring &amp#27;[0m&amp#27;[32m&amp#27;[1m6&amp#27;[0m&amp#27;[32m stamps&amp#27;[0m &amp#27;[90m# com.pitstop.stepdefs.RecipeStepDefs.system_has_recipe(java.lang.String,java.lang.String,int)&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe user has &amp#27;[0m&amp#27;[32m&amp#27;[1m6&amp#27;[0m&amp#27;[32m stamps in their passport&amp#27;[0m                                               &amp#27;[90m# com.pitstop.stepdefs.RecipeStepDefs.user_has_stamps(int)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe user attempts to unlock recipe &amp#27;[0m&amp#27;[32m&amp#27;[1m"Dobrudjanski Hlyab"&amp#27;[0m                                &amp#27;[90m# com.pitstop.stepdefs.RecipeStepDefs.user_attempts_unlock(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe recipe is unlocked successfully&amp#27;[0m                                                    &amp#27;[90m# com.pitstop.stepdefs.RecipeStepDefs.recipe_unlocked()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe recipe is added to the user's unlocked recipes list&amp#27;[0m                                 &amp#27;[90m# com.pitstop.stepdefs.RecipeStepDefs.recipe_in_list()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Successfully unlock a recipe with more than enough stamps" classname="Unlock Regional Recipes" time="0.036">
+    <system-out><![CDATA[
+Scenario: Successfully unlock a recipe with more than enough stamps                           &amp#27;[90m# features/03_unlock_recipes.feature:18&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe user &amp#27;[0m&amp#27;[32m&amp#27;[1m"chef_traveler"&amp#27;[0m&amp#27;[32m is registered and logged in for recipes&amp#27;[0m                      &amp#27;[90m# com.pitstop.stepdefs.RecipeStepDefs.user_registered_for_recipes(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe system has a recipe &amp#27;[0m&amp#27;[32m&amp#27;[1m"Dobrudjanski Hlyab"&amp#27;[0m&amp#27;[32m from region &amp#27;[0m&amp#27;[32m&amp#27;[1m"Dobrudzha"&amp#27;[0m&amp#27;[32m requiring &amp#27;[0m&amp#27;[32m&amp#27;[1m6&amp#27;[0m&amp#27;[32m stamps&amp#27;[0m &amp#27;[90m# com.pitstop.stepdefs.RecipeStepDefs.system_has_recipe(java.lang.String,java.lang.String,int)&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe user has &amp#27;[0m&amp#27;[32m&amp#27;[1m10&amp#27;[0m&amp#27;[32m stamps in their passport&amp#27;[0m                                              &amp#27;[90m# com.pitstop.stepdefs.RecipeStepDefs.user_has_stamps(int)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe user attempts to unlock recipe &amp#27;[0m&amp#27;[32m&amp#27;[1m"Dobrudjanski Hlyab"&amp#27;[0m                                &amp#27;[90m# com.pitstop.stepdefs.RecipeStepDefs.user_attempts_unlock(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe recipe is unlocked successfully&amp#27;[0m                                                    &amp#27;[90m# com.pitstop.stepdefs.RecipeStepDefs.recipe_unlocked()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="User views their unlocked recipes list" classname="Unlock Regional Recipes" time="0.016">
+    <system-out><![CDATA[
+Scenario: User views their unlocked recipes list                                              &amp#27;[90m# features/03_unlock_recipes.feature:23&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe user &amp#27;[0m&amp#27;[32m&amp#27;[1m"chef_traveler"&amp#27;[0m&amp#27;[32m is registered and logged in for recipes&amp#27;[0m                      &amp#27;[90m# com.pitstop.stepdefs.RecipeStepDefs.user_registered_for_recipes(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe system has a recipe &amp#27;[0m&amp#27;[32m&amp#27;[1m"Dobrudjanski Hlyab"&amp#27;[0m&amp#27;[32m from region &amp#27;[0m&amp#27;[32m&amp#27;[1m"Dobrudzha"&amp#27;[0m&amp#27;[32m requiring &amp#27;[0m&amp#27;[32m&amp#27;[1m6&amp#27;[0m&amp#27;[32m stamps&amp#27;[0m &amp#27;[90m# com.pitstop.stepdefs.RecipeStepDefs.system_has_recipe(java.lang.String,java.lang.String,int)&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe user has &amp#27;[0m&amp#27;[32m&amp#27;[1m6&amp#27;[0m&amp#27;[32m stamps in their passport&amp#27;[0m                                               &amp#27;[90m# com.pitstop.stepdefs.RecipeStepDefs.user_has_stamps(int)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe user has already unlocked recipe &amp#27;[0m&amp#27;[32m&amp#27;[1m"Dobrudjanski Hlyab"&amp#27;[0m                               &amp#27;[90m# com.pitstop.stepdefs.RecipeStepDefs.user_already_unlocked(java.lang.String)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe user views their unlocked recipes&amp#27;[0m                                                  &amp#27;[90m# com.pitstop.stepdefs.RecipeStepDefs.user_views_recipes()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe list contains the recipe &amp#27;[0m&amp#27;[32m&amp#27;[1m"Dobrudjanski Hlyab"&amp#27;[0m                                      &amp#27;[90m# com.pitstop.stepdefs.RecipeStepDefs.list_contains_recipe(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Failed unlock - not enough stamps" classname="Unlock Regional Recipes" time="0.009">
+    <system-out><![CDATA[
+Scenario: Failed unlock - not enough stamps                                                   &amp#27;[90m# features/03_unlock_recipes.feature:31&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe user &amp#27;[0m&amp#27;[32m&amp#27;[1m"chef_traveler"&amp#27;[0m&amp#27;[32m is registered and logged in for recipes&amp#27;[0m                      &amp#27;[90m# com.pitstop.stepdefs.RecipeStepDefs.user_registered_for_recipes(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe system has a recipe &amp#27;[0m&amp#27;[32m&amp#27;[1m"Dobrudjanski Hlyab"&amp#27;[0m&amp#27;[32m from region &amp#27;[0m&amp#27;[32m&amp#27;[1m"Dobrudzha"&amp#27;[0m&amp#27;[32m requiring &amp#27;[0m&amp#27;[32m&amp#27;[1m6&amp#27;[0m&amp#27;[32m stamps&amp#27;[0m &amp#27;[90m# com.pitstop.stepdefs.RecipeStepDefs.system_has_recipe(java.lang.String,java.lang.String,int)&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe user has &amp#27;[0m&amp#27;[32m&amp#27;[1m3&amp#27;[0m&amp#27;[32m stamps in their passport&amp#27;[0m                                               &amp#27;[90m# com.pitstop.stepdefs.RecipeStepDefs.user_has_stamps(int)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe user attempts to unlock recipe &amp#27;[0m&amp#27;[32m&amp#27;[1m"Dobrudjanski Hlyab"&amp#27;[0m                                &amp#27;[90m# com.pitstop.stepdefs.RecipeStepDefs.user_attempts_unlock(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe unlock fails&amp#27;[0m                                                                       &amp#27;[90m# com.pitstop.stepdefs.RecipeStepDefs.unlock_fails()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe error contains &amp#27;[0m&amp#27;[32m&amp#27;[1m"Nedostatachen broy pechati"&amp#27;[0m                                         &amp#27;[90m# com.pitstop.stepdefs.CommonStepDefs.error_contains(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Failed unlock - recipe already unlocked" classname="Unlock Regional Recipes" time="0.015">
+    <system-out><![CDATA[
+Scenario: Failed unlock - recipe already unlocked                                             &amp#27;[90m# features/03_unlock_recipes.feature:37&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe user &amp#27;[0m&amp#27;[32m&amp#27;[1m"chef_traveler"&amp#27;[0m&amp#27;[32m is registered and logged in for recipes&amp#27;[0m                      &amp#27;[90m# com.pitstop.stepdefs.RecipeStepDefs.user_registered_for_recipes(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe system has a recipe &amp#27;[0m&amp#27;[32m&amp#27;[1m"Dobrudjanski Hlyab"&amp#27;[0m&amp#27;[32m from region &amp#27;[0m&amp#27;[32m&amp#27;[1m"Dobrudzha"&amp#27;[0m&amp#27;[32m requiring &amp#27;[0m&amp#27;[32m&amp#27;[1m6&amp#27;[0m&amp#27;[32m stamps&amp#27;[0m &amp#27;[90m# com.pitstop.stepdefs.RecipeStepDefs.system_has_recipe(java.lang.String,java.lang.String,int)&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe user has &amp#27;[0m&amp#27;[32m&amp#27;[1m6&amp#27;[0m&amp#27;[32m stamps in their passport&amp#27;[0m                                               &amp#27;[90m# com.pitstop.stepdefs.RecipeStepDefs.user_has_stamps(int)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe user has already unlocked recipe &amp#27;[0m&amp#27;[32m&amp#27;[1m"Dobrudjanski Hlyab"&amp#27;[0m                               &amp#27;[90m# com.pitstop.stepdefs.RecipeStepDefs.user_already_unlocked(java.lang.String)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe user attempts to unlock recipe &amp#27;[0m&amp#27;[32m&amp#27;[1m"Dobrudjanski Hlyab"&amp#27;[0m                                &amp#27;[90m# com.pitstop.stepdefs.RecipeStepDefs.user_attempts_unlock(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe unlock fails&amp#27;[0m                                                                       &amp#27;[90m# com.pitstop.stepdefs.RecipeStepDefs.unlock_fails()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe exact error is &amp#27;[0m&amp#27;[32m&amp#27;[1m"Retseptata veche e otkluchena."&amp#27;[0m                                     &amp#27;[90m# com.pitstop.stepdefs.RecipeStepDefs.exact_error_is(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Failed unlock - zero stamps" classname="Unlock Regional Recipes" time="0.021">
+    <system-out><![CDATA[
+Scenario: Failed unlock - zero stamps                                                         &amp#27;[90m# features/03_unlock_recipes.feature:44&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe user &amp#27;[0m&amp#27;[32m&amp#27;[1m"chef_traveler"&amp#27;[0m&amp#27;[32m is registered and logged in for recipes&amp#27;[0m                      &amp#27;[90m# com.pitstop.stepdefs.RecipeStepDefs.user_registered_for_recipes(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe system has a recipe &amp#27;[0m&amp#27;[32m&amp#27;[1m"Dobrudjanski Hlyab"&amp#27;[0m&amp#27;[32m from region &amp#27;[0m&amp#27;[32m&amp#27;[1m"Dobrudzha"&amp#27;[0m&amp#27;[32m requiring &amp#27;[0m&amp#27;[32m&amp#27;[1m6&amp#27;[0m&amp#27;[32m stamps&amp#27;[0m &amp#27;[90m# com.pitstop.stepdefs.RecipeStepDefs.system_has_recipe(java.lang.String,java.lang.String,int)&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe user has &amp#27;[0m&amp#27;[32m&amp#27;[1m0&amp#27;[0m&amp#27;[32m stamps in their passport&amp#27;[0m                                               &amp#27;[90m# com.pitstop.stepdefs.RecipeStepDefs.user_has_stamps(int)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe user attempts to unlock recipe &amp#27;[0m&amp#27;[32m&amp#27;[1m"Dobrudjanski Hlyab"&amp#27;[0m                                &amp#27;[90m# com.pitstop.stepdefs.RecipeStepDefs.user_attempts_unlock(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe unlock fails&amp#27;[0m                                                                       &amp#27;[90m# com.pitstop.stepdefs.RecipeStepDefs.unlock_fails()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe error contains &amp#27;[0m&amp#27;[32m&amp#27;[1m"Nedostatachen broy pechati"&amp#27;[0m                                         &amp#27;[90m# com.pitstop.stepdefs.CommonStepDefs.error_contains(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+</testsuite>
